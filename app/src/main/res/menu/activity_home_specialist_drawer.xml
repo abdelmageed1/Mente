@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/homeFragment"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="home" />
+        <item
+            android:id="@+id/historyStudentFragment"
+            android:icon="@drawable/ic_baseline_history_24"
+            android:title="history student" />
+        <item
+            android:id="@+id/aboutUsFragment"
+            android:icon="@android:drawable/ic_menu_my_calendar"
+            android:title="AboutUs" />
+        <item
+            android:id="@+id/connectUsFragment"
+            android:icon="@android:drawable/stat_sys_phone_call"
+            android:title="ConnectUs" />
+        <item
+            android:id="@+id/ratingFragment"
+            android:icon="@android:drawable/btn_star_big_on"
+            android:title="Rating" />
+
+        <item
+            android:id="@+id/settingFragment"
+            android:icon="@drawable/ic_baseline_settings_24"
+            android:title="Setting" />
+
+    </group>
+</menu>

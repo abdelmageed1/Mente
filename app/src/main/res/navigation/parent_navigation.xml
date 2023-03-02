@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home_parent">
+
+    <fragment
+        android:id="@+id/nav_home_parent"
+        android:name="com.example.mente.Parent.ui.HomeParentFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home_parent" />
+
+    <fragment
+        android:id="@+id/nav_setting_parent"
+        android:name="com.example.mente.Parent.ui.ParentSettingFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_parent_setting" />
+
+    <fragment
+        android:id="@+id/nav_connectus_parent"
+        android:name="com.example.mente.Parent.ui.ParentConnectUsFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_parent_connect_us" />
+
+    <fragment
+        android:id="@+id/nav_ratting_parent"
+        android:name="com.example.mente.Parent.ui.ParentRattingFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_parent_ratting" />
+
+    <fragment
+        android:id="@+id/nav_about_parent"
+        android:name="com.example.mente.Parent.ui.ParentAboutFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_about_parent" />
+
+</navigation>

@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <!-- layout neural   -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_height="match_parent"
+        android:layout_margin="15dp"
+        android:orientation="vertical"
+        android:id="@+id/listQNeural"
+        android:visibility="gone"
+        >
+
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+
+            >
+
+            <Button
+                android:id="@+id/listQNeuralBtnGo1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" (1) مهارة اليد"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"
+                style="?attr/materialButtonOutlinedStyle"
+                android:textColor="@color/btn_color_questions"
+                />
+
+            <Button
+                android:id="@+id/listQNeuralBtnGo2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" (2)التعرف على شكل و نسخه"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"
+                style="?attr/materialButtonOutlinedStyle"
+                android:textColor="@color/btn_color_questions"
+                />
+
+
+
+
+            <Button
+                android:id="@+id/listQNeuralBtnGo3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" (3)التعرف على الشكل حين يرسم بالمس على راحة اليد"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"
+                style="?attr/materialButtonOutlinedStyle"
+                android:textColor="@color/btn_color_questions"
+                />
+
+            <Button
+                android:id="@+id/listQNeuralBtnGo4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" (4) متابعة شيئ متحرك بالعين"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"
+                style="?attr/materialButtonOutlinedStyle"
+                android:textColor="@color/btn_color_questions"
+                />
+
+            <Button
+                android:id="@+id/listQNeuralBtnGo5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" (5) محاكاه الاصوات "
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"
+                style="?attr/materialButtonOutlinedStyle"
+                android:textColor="@color/btn_color_questions"
+                />
+
+
+            <Button
+                android:id="@+id/listQNeuralBtnGo6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" (6) لمس الانف بالاصبع (السبابة)"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"
+                style="?attr/materialButtonOutlinedStyle"
+                android:textColor="@color/btn_color_questions"
+                />
+
+            <Button
+                android:id="@+id/listQNeuralBtnGo7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" (7) عمل دائرة بإصبع الابهام و بقية الاصابع"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"
+                style="?attr/materialButtonOutlinedStyle"
+                android:textColor="@color/btn_color_questions"
+                />
+
+
+            <Button
+                android:id="@+id/listQNeuralBtnGo8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" (8) لمس اليد و الخد فى نفس الوقت"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"
+                style="?attr/materialButtonOutlinedStyle"
+                android:textColor="@color/btn_color_questions"
+                />
+
+
+            <Button
+                android:id="@+id/listQNeuralBtnGo9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" (9) الحركات السريعة المتكررة و العكسية لليدين"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"
+                style="?attr/materialButtonOutlinedStyle"
+                android:textColor="@color/btn_color_questions"
+                />
+
+            <Button
+                android:id="@+id/listQNeuralBtnGo10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" (10) فرد الذراعين و الرجلين"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"
+                style="?attr/materialButtonOutlinedStyle"
+                android:textColor="@color/btn_color_questions"
+                />
+
+
+            <Button
+                android:id="@+id/listQNeuralBtnGo11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" (11) المشى التبادلي"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"
+                style="?attr/materialButtonOutlinedStyle"
+                android:textColor="@color/btn_color_questions"
+                />
+
+
+            <Button
+                android:id="@+id/listQNeuralBtnGo12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" (12) الوقوف على رجل واحدة"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"
+                style="?attr/materialButtonOutlinedStyle"
+                android:textColor="@color/btn_color_questions"
+                />
+
+
+            <Button
+                android:id="@+id/listQNeuralBtnGo13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" (13) الوثب على قدم واحدة (الحجل)"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"
+                style="?attr/materialButtonOutlinedStyle"
+                android:textColor="@color/btn_color_questions"
+                />
+
+
+            <Button
+                android:id="@+id/listQNeuralBtnGo14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" (14) التمييز بين اليسار و اليمين"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"
+                style="?attr/materialButtonOutlinedStyle"
+                android:textColor="@color/btn_color_questions"
+                />
+
+            <Button
+                android:id="@+id/listQNeuralBtnGo15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="(15) أنماط السلوك الشاذ  "
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"
+                style="?attr/materialButtonOutlinedStyle"
+                android:textColor="@color/btn_color_questions"
+                />
+
+        </LinearLayout>
+
+
+        </ScrollView>
+
+
+    <!-- layout elionoie   -->
+    <ScrollView
+        android:layout_width="match_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_height="match_parent"
+        android:layout_margin="15dp"
+        android:orientation="vertical"
+        android:id="@+id/listQElionoie"
+        android:visibility="gone"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <Button
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="الاستقبال السمعي "
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"
+                style="?attr/materialButtonOutlinedStyle"
+                android:textColor="@color/btn_color_questions"
+                />
+
+            <Button
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="الاستقبال البصري "
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"
+                style="?attr/materialButtonOutlinedStyle"
+                android:textColor="@color/btn_color_questions"
+                />
+
+            <Button
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" التداعي السمعي "
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"
+                style="?attr/materialButtonOutlinedStyle"
+                android:textColor="@color/btn_color_questions"
+                />
+
+
+
+                <Button
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="الذاكرة السمعية المتتالية"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"
+                style="?attr/materialButtonOutlinedStyle"
+                android:textColor="@color/btn_color_questions"
+                />
+
+
+                <Button
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="التداعي البصري"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"
+                style="?attr/materialButtonOutlinedStyle"
+                android:textColor="@color/btn_color_questions"
+                />
+
+
+                <Button
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="الإغلاق البصري"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"
+                style="?attr/materialButtonOutlinedStyle"
+                android:textColor="@color/btn_color_questions"
+                />
+
+
+
+                <Button
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" الإغلاق اللغوي"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"
+                style="?attr/materialButtonOutlinedStyle"
+                android:textColor="@color/btn_color_questions"
+                />
+
+
+
+                <Button
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="التعبير اليدوي"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"
+                style="?attr/materialButtonOutlinedStyle"
+                android:textColor="@color/btn_color_questions"
+                />
+
+
+                <Button
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="الإغلاق السمعي"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"
+                style="?attr/materialButtonOutlinedStyle"
+                android:textColor="@color/btn_color_questions"
+                />
+
+                <Button
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="مزج الأصوات"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"
+                style="?attr/materialButtonOutlinedStyle"
+                android:textColor="@color/btn_color_questions"
+                />
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <!-- layout Fathy el zayat   -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_height="match_parent"
+        android:layout_margin="15dp"
+        android:orientation="vertical"
+        android:id="@+id/listQFathyElZayat"
+        android:visibility="visible"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+
+            <Button
+                android:id="@+id/btnListFathy1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="الانتباه "
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"
+                style="?attr/materialButtonOutlinedStyle"
+                android:textColor="@color/btn_color_questions"
+                />
+
+
+            <Button
+                android:id="@+id/btnListFathy2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="الإدراك السمعي "
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"
+                style="?attr/materialButtonOutlinedStyle"
+                android:textColor="@color/btn_color_questions"
+                />
+
+
+            <Button
+                android:id="@+id/btnListFathy3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="الإدراك البصري "
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"
+                style="?attr/materialButtonOutlinedStyle"
+                android:textColor="@color/btn_color_questions"
+                />
+
+
+            <Button
+                android:id="@+id/btnListFathy4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="الإدراك الحركي"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"
+                style="?attr/materialButtonOutlinedStyle"
+                android:textColor="@color/btn_color_questions"
+                />
+
+
+
+            <Button
+                android:id="@+id/btnListFathy5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" الذاكرة"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"
+                style="?attr/materialButtonOutlinedStyle"
+                android:textColor="@color/btn_color_questions"
+                />
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+
+</LinearLayout>
+

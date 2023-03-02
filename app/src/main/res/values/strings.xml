@@ -1,0 +1,41 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name" translatable="false">Mente</string>
+
+
+    <string name="menu_home" translatable="false">Home</string>
+    <string name="menu_gallery" translatable="false">Gallery</string>
+    <string name="menu_slideshow" translatable="false" tools:ignore="MissingTranslation">Slideshow</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="first_name">First Name</string>
+    <string name="mail">Mail</string>
+    <string name="password">Password</string>
+    <string name="login">login</string>
+    <string name="create_new_account">Create New Account</string>
+    <string name="last_name">last name</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="parent">Parent</string>
+    <string name="specialist">Specialist</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="i_have_already_account">I Have Already Account</string>
+    <string name="yse">Yse</string>
+    <string name="no">No</string>
+    <string name="name_of_student">Name Of Student</string>
+    <string name="add_new_user">Add New User</string>
+    <string name="age_of_student">Age of Student</string>
+    <string name="No">No (0)</string>
+    <string name="rarely">Rarely (1)</string>
+    <string name="sametime_1">Sametime (2)</string>
+    <string name="often_3">often (3)</string>
+    <string name="always_4">always (4)</string>
+
+
+    <string-array name="category_name_quiz">
+        <item> نتائج الفرز العصبى</item>
+        <item> نتائج الينوى</item>
+        <item> نتائج بطاريات فتحى الزيات</item>
+
+    </string-array>
+
+
+</resources>

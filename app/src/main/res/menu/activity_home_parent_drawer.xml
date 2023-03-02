@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home_parent"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="home" />
+        <item
+            android:id="@+id/nav_about_parent"
+            android:icon="@android:drawable/ic_menu_my_calendar"
+            android:title="AboutUs" />
+        <item
+            android:id="@+id/nav_connectus_parent"
+            android:icon="@android:drawable/stat_sys_phone_call"
+            android:title="ConnectUs" />
+        <item
+            android:id="@+id/nav_ratting_parent"
+            android:icon="@android:drawable/btn_star_big_on"
+            android:title="Rating" />
+
+        <item
+            android:id="@+id/nav_setting_parent"
+            android:icon="@drawable/ic_baseline_settings_24"
+            android:title="Setting" />
+
+    </group>
+</menu>
