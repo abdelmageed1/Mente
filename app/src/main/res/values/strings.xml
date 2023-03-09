@@ -18,14 +18,14 @@
     <string name="specialist">Specialist</string>
     <string name="sign_up">Sign Up</string>
     <string name="i_have_already_account">I Have Already Account</string>
-    <string name="yse">Yse</string>
+    <string name="yes">Yes</string>
     <string name="no">No</string>
     <string name="name_of_student">Name Of Student</string>
     <string name="add_new_user">Add New User</string>
     <string name="age_of_student">Age of Student</string>
     <string name="No">No (0)</string>
     <string name="rarely">Rarely (1)</string>
-    <string name="sametime_1">Sametime (2)</string>
+    <string name="sometime_1">Sometime (2)</string>
     <string name="often_3">often (3)</string>
     <string name="always_4">always (4)</string>
 

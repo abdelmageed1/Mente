@@ -2,7 +2,6 @@ package com.example.mente.Specialist
 
 import android.os.Bundle
 import android.widget.TextView
-import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.drawerlayout.widget.DrawerLayout
 import androidx.lifecycle.ViewModelProvider
@@ -34,17 +33,10 @@ class HomeSpecialistActivity : AppCompatActivity() {
         // set Navigation Drawer
         setAppBarAndNavigationDrawer()
 
-         setUserNameInNavHeader()
+        setUserNameInNavHeader()
 
 
     }
-
-
-
-
-
-
-
 
 
     private fun setUserNameInNavHeader() {
@@ -52,17 +44,13 @@ class HomeSpecialistActivity : AppCompatActivity() {
         var n = binding.navView.getHeaderView(0)
         var userName = n.findViewById<TextView>(R.id.tvUserNameInDrawer)
         var userEmail = n.findViewById<TextView>(R.id.tvUserEmailInDrawer)
-         authVM.mGetSpecialistUserInfo.observe(this){
-             userName.text ="${ it.fName.capitalize()} ${ it.lName.capitalize()}"
-             userEmail.text = " ${it.email}"
+        authVM.mGetSpecialistUserInfo.observe(this) {
+            userName.text = "${it.fName.capitalize()} ${it.lName.capitalize()}"
+            userEmail.text = " ${it.email}"
 
-         }
+        }
 
     }
-
-
-
-
 
 
     private fun setAppBarAndNavigationDrawer() {
@@ -86,7 +74,6 @@ class HomeSpecialistActivity : AppCompatActivity() {
         val navController = findNavController(R.id.nav_host_fragment_content_home_specialist)
         return navController.navigateUp(appBarConfiguration) || super.onSupportNavigateUp()
     }
-
 
 
 }

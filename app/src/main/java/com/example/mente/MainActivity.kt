@@ -31,16 +31,16 @@ class MainActivity : AppCompatActivity() {
              {
                 goToLogin()
              }
+
             else {
-              //  authViewModel.mGetUserInfo.observe(this@MainActivity){
-                    //      if(it.type == constant.userTypeSpecialist)
+           //     authViewModel.mGetUserInfo.observe(this@MainActivity){
+                   //    if(it.type == constant.userTypeSpecialist)
                                  goToHomeSpecialist()
-                      //   else
-                           //  goToHomeParent()
-                     //   }
+                     //    else
+                     //         goToHomeParent()
+                     //    }
 
                 }
-
             }
 
 

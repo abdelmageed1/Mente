@@ -8,13 +8,14 @@ import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
 import com.example.mente.R
 import com.example.mente.Specialist.HomeSpecialistActivity
+import com.example.mente.Specialist.ui.Questions.IlllionsQ.ShowQIlllioniList1Fragment
 import com.example.mente.Student.View.AddStudentFragment
 import com.example.mente.constant
 import com.example.mente.databinding.FragmentQSpeTypeBinding
 
 
 class QSpeTypeFragment : Fragment() {
-    lateinit var bindibg: FragmentQSpeTypeBinding
+    lateinit var binding: FragmentQSpeTypeBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -25,8 +26,8 @@ class QSpeTypeFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        bindibg = FragmentQSpeTypeBinding.inflate(inflater, container, false)
-        return bindibg.root
+        binding = FragmentQSpeTypeBinding.inflate(inflater, container, false)
+        return binding.root
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
@@ -38,99 +39,100 @@ class QSpeTypeFragment : Fragment() {
 
         goToQNeural()
         goToQFathy()
+        goToIllinois()
 
 
     }
 
     private fun goToQNeural() {
 
-        bindibg.listQNeuralBtnGo1.setOnClickListener {
+        binding.listQNeuralBtnGo1.setOnClickListener {
             findNavController().navigate(R.id.action_QSpeTypeFragment_to_addStudentFragment)
             ShowQSupportkFragment.categoryQuestion = constant.neuralCategoryList[0]
             AddStudentFragment.testName= constant.neuralCategoryList[0]
         }
 
-        bindibg.listQNeuralBtnGo2.setOnClickListener {
+        binding.listQNeuralBtnGo2.setOnClickListener {
             findNavController().navigate(R.id.action_QSpeTypeFragment_to_addStudentFragment)
             ShowQSupportkFragment.categoryQuestion = constant.neuralCategoryList[1]
             AddStudentFragment.testName = constant.neuralCategoryList[1]
         }
 
-        bindibg.listQNeuralBtnGo3.setOnClickListener {
+        binding.listQNeuralBtnGo3.setOnClickListener {
             findNavController().navigate(R.id.action_QSpeTypeFragment_to_addStudentFragment)
             ShowQSupportkFragment.categoryQuestion = constant.neuralCategoryList[2]
             AddStudentFragment.testName = constant.neuralCategoryList[2]
         }
 
 
-        bindibg.listQNeuralBtnGo4.setOnClickListener {
-            //  findNavController().navigate(R.id.action_QSpeTypeFragment_to_showQSupportkFragment)
-              // ShowQSupportkFragment.categoryQuestion = constant.neuralCategory4
-           // AddStudentFragment.testName = constant.neuralCategory4
+        binding.listQNeuralBtnGo4.setOnClickListener {
+            findNavController().navigate(R.id.action_QSpeTypeFragment_to_addStudentFragment)
+            ShowQSupportkFragment.categoryQuestion = constant.neuralCategoryList[3]
+            AddStudentFragment.testName = constant.neuralCategoryList[3]
         }
 
 
 
-        bindibg.listQNeuralBtnGo5.setOnClickListener {
+        binding.listQNeuralBtnGo5.setOnClickListener {
             findNavController().navigate(R.id.action_QSpeTypeFragment_to_addStudentFragment)
             ShowQSupportkFragment.categoryQuestion = constant.neuralCategoryList[4]
             AddStudentFragment.testName = constant.neuralCategoryList[4]
         }
 
-        bindibg.listQNeuralBtnGo6.setOnClickListener {
+        binding.listQNeuralBtnGo6.setOnClickListener {
             findNavController().navigate(R.id.action_QSpeTypeFragment_to_addStudentFragment)
             ShowQSupportkFragment.categoryQuestion = constant.neuralCategoryList[5]
             AddStudentFragment.testName = constant.neuralCategoryList[5]
         }
-        bindibg.listQNeuralBtnGo7.setOnClickListener {
+        binding.listQNeuralBtnGo7.setOnClickListener {
             findNavController().navigate(R.id.action_QSpeTypeFragment_to_addStudentFragment)
             ShowQSupportkFragment.categoryQuestion = constant.neuralCategoryList[6]
             AddStudentFragment.testName = constant.neuralCategoryList[6]
         }
 
-        bindibg.listQNeuralBtnGo8.setOnClickListener {
+        binding.listQNeuralBtnGo8.setOnClickListener {
             findNavController().navigate(R.id.action_QSpeTypeFragment_to_addStudentFragment)
             ShowQSupportkFragment.categoryQuestion = constant.neuralCategoryList[7]
             AddStudentFragment.testName = constant.neuralCategoryList[7]
         }
 
-        bindibg.listQNeuralBtnGo9.setOnClickListener {
+        binding.listQNeuralBtnGo9.setOnClickListener {
             findNavController().navigate(R.id.action_QSpeTypeFragment_to_addStudentFragment)
             ShowQSupportkFragment.categoryQuestion = constant.neuralCategoryList[8]
             AddStudentFragment.testName = constant.neuralCategoryList[8]
         }
 
-        bindibg.listQNeuralBtnGo10.setOnClickListener {
+        binding.listQNeuralBtnGo10.setOnClickListener {
             findNavController().navigate(R.id.action_QSpeTypeFragment_to_addStudentFragment)
             ShowQSupportkFragment.categoryQuestion = constant.neuralCategoryList[9]
             AddStudentFragment.testName = constant.neuralCategoryList[9]
         }
 
-        bindibg.listQNeuralBtnGo11.setOnClickListener {
+        binding.listQNeuralBtnGo11.setOnClickListener {
             findNavController().navigate(R.id.action_QSpeTypeFragment_to_addStudentFragment)
             ShowQSupportkFragment.categoryQuestion = constant.neuralCategoryList[10]
             AddStudentFragment.testName = constant.neuralCategoryList[10]
         }
 
-        bindibg.listQNeuralBtnGo12.setOnClickListener {
+        binding.listQNeuralBtnGo12.setOnClickListener {
             findNavController().navigate(R.id.action_QSpeTypeFragment_to_addStudentFragment)
             ShowQSupportkFragment.categoryQuestion = constant.neuralCategoryList[11]
             AddStudentFragment.testName = constant.neuralCategoryList[11]
         }
 
-        bindibg.listQNeuralBtnGo13.setOnClickListener {
+        binding.listQNeuralBtnGo13.setOnClickListener {
             findNavController().navigate(R.id.action_QSpeTypeFragment_to_addStudentFragment)
             ShowQSupportkFragment.categoryQuestion = constant.neuralCategoryList[12]
             AddStudentFragment.testName = constant.neuralCategoryList[12]
         }
 
-        bindibg.listQNeuralBtnGo14.setOnClickListener {
+        binding.listQNeuralBtnGo14.setOnClickListener {
             findNavController().navigate(R.id.action_QSpeTypeFragment_to_addStudentFragment)
             ShowQSupportkFragment.categoryQuestion = constant.neuralCategoryList[13]
             AddStudentFragment.testName = constant.neuralCategoryList[13]
         }
 
-        bindibg.listQNeuralBtnGo15.setOnClickListener {
+        binding.listQNeuralBtnGo15.setOnClickListener {
             findNavController().navigate(R.id.action_QSpeTypeFragment_to_addStudentFragment)
             ShowQSupportkFragment.categoryQuestion = constant.neuralCategoryList[14]
             AddStudentFragment.testName = constant.neuralCategoryList[14]
@@ -141,36 +143,94 @@ class QSpeTypeFragment : Fragment() {
 
     private fun goToQFathy() {
 
-        bindibg.btnListFathy1.setOnClickListener {
+        binding.btnListFathy1.setOnClickListener {
             findNavController().navigate(R.id.action_QSpeTypeFragment_to_addStudentFragment)
             ShowQFourAnsFragment.categoryQuestion = constant.fathyElZayatCategoryList[0]
             AddStudentFragment.testName = constant.fathyElZayatCategoryList[0]
         }
 
-        bindibg.btnListFathy2.setOnClickListener {
+        binding.btnListFathy2.setOnClickListener {
             findNavController().navigate(R.id.action_QSpeTypeFragment_to_addStudentFragment)
             ShowQFourAnsFragment.categoryQuestion = constant.fathyElZayatCategoryList[1]
             AddStudentFragment.testName  = constant.fathyElZayatCategoryList[1]
         }
 
-        bindibg.btnListFathy3.setOnClickListener {
+        binding.btnListFathy3.setOnClickListener {
             findNavController().navigate(R.id.action_QSpeTypeFragment_to_addStudentFragment)
             ShowQFourAnsFragment.categoryQuestion = constant.fathyElZayatCategoryList[2]
             AddStudentFragment.testName  = constant.fathyElZayatCategoryList[2]
         }
 
-        bindibg.btnListFathy4.setOnClickListener {
+        binding.btnListFathy4.setOnClickListener {
             findNavController().navigate(R.id.action_QSpeTypeFragment_to_addStudentFragment)
-
             ShowQFourAnsFragment.categoryQuestion = constant.fathyElZayatCategoryList[3]
             AddStudentFragment.testName  = constant.fathyElZayatCategoryList[3]
         }
 
-        bindibg.btnListFathy5.setOnClickListener {
+        binding.btnListFathy5.setOnClickListener {
             findNavController().navigate(R.id.action_QSpeTypeFragment_to_addStudentFragment)
             ShowQFourAnsFragment.categoryQuestion = constant.fathyElZayatCategoryList[4]
             AddStudentFragment.testName  = constant.fathyElZayatCategoryList[4]
         }
+
+        binding.btnListFathy6.setOnClickListener {
+            findNavController().navigate(R.id.action_QSpeTypeFragment_to_addStudentFragment)
+            ShowQFourAnsFragment.categoryQuestion = constant.fathyElZayatCategoryList[5]
+            AddStudentFragment.testName  = constant.fathyElZayatCategoryList[5]
+        }
+
+        binding.btnListFathy7.setOnClickListener {
+            findNavController().navigate(R.id.action_QSpeTypeFragment_to_addStudentFragment)
+            ShowQFourAnsFragment.categoryQuestion = constant.fathyElZayatCategoryList[6]
+            AddStudentFragment.testName  = constant.fathyElZayatCategoryList[6]
+        }
+
+        binding.btnListFathy8.setOnClickListener {
+            findNavController().navigate(R.id.action_QSpeTypeFragment_to_addStudentFragment)
+            ShowQFourAnsFragment.categoryQuestion = constant.fathyElZayatCategoryList[7]
+            AddStudentFragment.testName  = constant.fathyElZayatCategoryList[7]
+        }
+
+        binding.btnListFathy9.setOnClickListener {
+            findNavController().navigate(R.id.action_QSpeTypeFragment_to_addStudentFragment)
+            ShowQFourAnsFragment.categoryQuestion = constant.fathyElZayatCategoryList[8]
+            AddStudentFragment.testName  = constant.fathyElZayatCategoryList[8]
+        }
+
+
+    }
+
+    private fun goToIllinois(){
+
+        binding.listQElionoieBtnGoTo1.setOnClickListener {
+            findNavController().navigate(R.id.action_QSpeTypeFragment_to_addStudentFragment)
+            ShowQIlllioniList1Fragment.categoryQuestion = constant.elIIinoiCategoryList[0]
+            AddStudentFragment.testName = constant.elIIinoiCategoryList[0]
+
+        }
+
+        binding.listQElionoieBtnGoTo2.setOnClickListener {
+//            findNavController().navigate(R.id.action_QSpeTypeFragment_to_addStudentFragment)
+//            ShowQIlllioniList1Fragment.categoryQuestion = constant.elIIinoiCategoryList[2]
+//            AddStudentFragment.testName = constant.elIIinoiCategoryList[2]
+        }
+
+        binding.listQElionoieBtnGoTo3.setOnClickListener {
+//            findNavController().navigate(R.id.action_QSpeTypeFragment_to_addStudentFragment)
+//            ShowQIlllioniList1Fragment.categoryQuestion = constant.elIIinoiCategoryList[2]
+//            AddStudentFragment.testName = constant.elIIinoiCategoryList[2]
+        }
+
+        binding.listQElionoieBtnGoTo4.setOnClickListener {
+//            findNavController().navigate(R.id.action_QSpeTypeFragment_to_addStudentFragment)
+//            ShowQIlllioniList1Fragment.categoryQuestion = constant.elIIinoiCategoryList[3]
+//            AddStudentFragment.testName = constant.elIIinoiCategoryList[3]
+        }
+
+
+
+
+
 
 
     }
@@ -198,32 +258,32 @@ class QSpeTypeFragment : Fragment() {
 
     private fun showQNeural() {
 
-        bindibg.listQNeural.visibility = View.VISIBLE
+        binding.listQNeural.visibility = View.VISIBLE
 
-        bindibg.listQElionoie.visibility = View.GONE
+        binding.listQElionoie.visibility = View.GONE
 
-        bindibg.listQFathyElZayat.visibility = View.GONE
+        binding.listQFathyElZayat.visibility = View.GONE
 
 
     }
 
     private fun showQElioni() {
 
-        bindibg.listQNeural.visibility = View.GONE
+        binding.listQNeural.visibility = View.GONE
 
-        bindibg.listQElionoie.visibility = View.VISIBLE
+        binding.listQElionoie.visibility = View.VISIBLE
 
-        bindibg.listQFathyElZayat.visibility = View.GONE
+        binding.listQFathyElZayat.visibility = View.GONE
 
     }
 
     private fun showQFathyElZayat() {
 
-        bindibg.listQNeural.visibility = View.GONE
+        binding.listQNeural.visibility = View.GONE
 
-        bindibg.listQElionoie.visibility = View.GONE
+        binding.listQElionoie.visibility = View.GONE
 
-        bindibg.listQFathyElZayat.visibility = View.VISIBLE
+        binding.listQFathyElZayat.visibility = View.VISIBLE
 
     }
 

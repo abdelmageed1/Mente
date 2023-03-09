@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:app="http://schemas.android.com/apk/res-auto"
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-
-
-        >
+        android:layout_height="match_parent">
 
 
         <TextView
@@ -51,8 +49,6 @@
                     android:layout_height="wrap_content"
                     android:layout_marginVertical="10dp"
                     android:gravity="center"
-
-
                     android:textColor="@color/purple_700"
                     android:textSize="25dp"
                     android:textStyle="bold"
@@ -60,6 +56,7 @@
 
                 <ImageView
                     android:id="@+id/img"
+                    android:visibility="gone"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
@@ -72,9 +69,8 @@
                     android:id="@+id/tvEvaluationScoredPoint"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-
                     android:layout_marginTop="40dp"
-                    android:textColor="@color/white"
+                    android:textColor="@color/black"
                     android:textSize="30sp"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
@@ -84,37 +80,14 @@
                     android:id="@+id/tvEvaluationTotalPoint"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-
                     android:layout_marginBottom="40dp"
-                    android:textColor="@color/white"
+                    android:textColor="@color/black"
                     android:textSize="30sp"
+                    android:text=""
                     app:layout_constraintBottom_toBottomOf="@+id/img"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent" />
 
-
-                <TextView
-                    android:id="@+id/tvNumberOfTotalQuestions"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="20dp"
-                    android:gravity="right"
-                    android:text=" عدد الكلى لاسئلة"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/img" />
-
-                <TextView
-                    android:id="@+id/tvNumberOfRightQuestions"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="20dp"
-                    android:gravity="right"
-                    android:text=" عدد الكلى لاسئلة"
-
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/tvNumberOfTotalQuestions" />
 
             </androidx.constraintlayout.widget.ConstraintLayout>
 

@@ -11,6 +11,7 @@ import com.example.mente.Data.QuestionsSpecialist.FathyElZayat.DataFathyElZayat
 import com.example.mente.Models.Question
 import com.example.mente.R
 import com.example.mente.Specialist.HomeSpecialistActivity
+import com.example.mente.Specialist.ui.Questions.Evaluation.EvaluatonFathyElZayatFragment
 import com.example.mente.constant
 import com.example.mente.databinding.FragmentShowQFourAnsBinding
 
@@ -47,6 +48,22 @@ class ShowQFourAnsFragment : Fragment() {
 
             constant.fathyElZayatCategoryList[4] -> {
                 arrQuestion = DataFathyElZayat.fathyElZayatDataList5
+            }
+
+            constant.fathyElZayatCategoryList[5] -> {
+                arrQuestion = DataFathyElZayat.fathyElZayatDataList6
+            }
+
+            constant.fathyElZayatCategoryList[6] -> {
+                arrQuestion = DataFathyElZayat.fathyElZayatDataList7
+            }
+
+            constant.fathyElZayatCategoryList[7] -> {
+                arrQuestion = DataFathyElZayat.fathyElZayatDataList8
+            }
+
+            constant.fathyElZayatCategoryList[8] -> {
+                arrQuestion = DataFathyElZayat.fathyElZayatDataList9
             }
 
 
@@ -131,13 +148,6 @@ class ShowQFourAnsFragment : Fragment() {
 
     }
 
-   fun setRbFalse() {
-       binding.rbSelect1.isChecked = false
-       binding.rbSelect2.isChecked = false
-       binding.rbSelect3.isChecked = false
-       binding.rbSelect4.isChecked = false
-       binding.rbSelect5.isChecked = false
-   }
 
     private fun setActionBar() {
         var act = activity as HomeSpecialistActivity

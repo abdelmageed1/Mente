@@ -13,6 +13,7 @@ import com.example.mente.Data.QuestionsSpecialist.neuralScreening.DataQuestion
 import com.example.mente.Models.Question
 import com.example.mente.R
 import com.example.mente.Specialist.HomeSpecialistActivity
+import com.example.mente.Specialist.ui.Questions.Evaluation.EvaluationSpeNeuralFragment
 import com.example.mente.constant
 import com.example.mente.databinding.FragmentShowQSupportkBinding
 
@@ -111,6 +112,9 @@ class ShowQSupportkFragment : Fragment() {
 
             constant.neuralCategoryList[3]  -> {
 //////////////////////////////////////////////
+                arrQuestion = DataQuestion.neuralDataList4
+                setQuestions(constant.neuralCategoryList[3],arrQuestion)
+                testName = constant.neuralCategoryList[3]
             }
 
             constant.neuralCategoryList[4]  -> {
@@ -247,7 +251,7 @@ class ShowQSupportkFragment : Fragment() {
         binding.tvQSupportTitle.text = tittle
         //   indextTv = 0
         for (i in arrQ) {
-            indextTv = (i.num) - 1
+            indextTv = (i.id) - 1
             arrOfTvQId[indextTv].text = i.strQuestion
 
             totalPoint += i.rightAns

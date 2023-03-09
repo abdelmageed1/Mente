@@ -7,8 +7,9 @@ import android.view.ViewGroup
 import androidx.navigation.findNavController
 import androidx.recyclerview.widget.RecyclerView
 import com.example.mente.R
-import com.example.mente.Specialist.ui.Questions.EvaluationSpeNeuralFragment
-import com.example.mente.Specialist.ui.Questions.EvaluatonFathyElZayatFragment
+import com.example.mente.Specialist.ui.Questions.Evaluation.EvaluationSpeNeuralFragment
+import com.example.mente.Specialist.ui.Questions.Evaluation.EvaluatonFathyElZayatFragment
+import com.example.mente.Specialist.ui.Questions.IlllionsQ.ShowQIlllioniList1Fragment
 import com.example.mente.Student.Model.Student
 import com.example.mente.Student.View.AddStudentFragment
 import com.example.mente.constant
@@ -69,7 +70,11 @@ class AdapterShowStudents : RecyclerView.Adapter<AdapterShowStudents.StudentVH>(
             }
             ////////////////////////////////////
             constant.quizTypeSpeIIIIinoi -> {
+                fabView?.findNavController()
+                    ?.navigate(R.id.action_addStudentFragment_to_showQTwoAns)
 
+                EvaluationSpeNeuralFragment.currentStudent = currentStudent
+                ShowQIlllioniList1Fragment.student = currentStudent
 
             }
             constant.quizTypeSpeFathyElZayat -> {

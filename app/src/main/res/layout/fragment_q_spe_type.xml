@@ -227,7 +227,7 @@
             >
 
             <Button
-
+                android:id="@+id/listQElionoieBtnGoTo1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="الاستقبال السمعي "
@@ -241,6 +241,7 @@
 
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:id="@+id/listQElionoieBtnGoTo2"
                 android:text="الاستقبال البصري "
                 android:textSize="20sp"
                 android:layout_marginTop="10dp"
@@ -254,6 +255,7 @@
                 android:layout_height="wrap_content"
                 android:text=" التداعي السمعي "
                 android:textSize="20sp"
+                android:id="@+id/listQElionoieBtnGoTo3"
                 android:layout_marginTop="10dp"
                 style="?attr/materialButtonOutlinedStyle"
                 android:textColor="@color/btn_color_questions"
@@ -267,6 +269,7 @@
                 android:layout_height="wrap_content"
                 android:text="الذاكرة السمعية المتتالية"
                 android:textSize="20sp"
+                android:id="@+id/listQElionoieBtnGoTo4"
                 android:layout_marginTop="10dp"
                 style="?attr/materialButtonOutlinedStyle"
                 android:textColor="@color/btn_color_questions"
@@ -274,7 +277,7 @@
 
 
                 <Button
-
+                android:id="@+id/listQElionoieBtnGoTo5"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="التداعي البصري"
@@ -286,7 +289,7 @@
 
 
                 <Button
-
+                android:id="@+id/listQElionoieBtnGoTo6"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="الإغلاق البصري"
@@ -299,7 +302,7 @@
 
 
                 <Button
-
+                android:id="@+id/listQElionoieBtnGoTo7"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text=" الإغلاق اللغوي"
@@ -312,7 +315,7 @@
 
 
                 <Button
-
+               android:id="@+id/listQElionoieBtnGoTo8"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="التعبير اليدوي"
@@ -324,7 +327,7 @@
 
 
                 <Button
-
+                android:id="@+id/listQElionoieBtnGoTo9"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="الإغلاق السمعي"
@@ -335,7 +338,7 @@
                 />
 
                 <Button
-
+                android:id="@+id/listQElionoieBtnGoTo10"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="مزج الأصوات"
@@ -424,6 +427,51 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text=" الذاكرة"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"
+                style="?attr/materialButtonOutlinedStyle"
+                android:textColor="@color/btn_color_questions"
+                />
+
+
+            <Button
+                android:id="@+id/btnListFathy6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="التقدير التشخيصي لصعوبات تعلم القراءة "
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"
+                style="?attr/materialButtonOutlinedStyle"
+                android:textColor="@color/btn_color_questions"
+                />
+
+            <Button
+                android:id="@+id/btnListFathy7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="التقدير التشخيصي لصعوبات تعلم الكتابة "
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"
+                style="?attr/materialButtonOutlinedStyle"
+                android:textColor="@color/btn_color_questions"
+                />
+
+            <Button
+                android:id="@+id/btnListFathy8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="التقدير التشخيصي لصعوبات تعلم الرياضيات "
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"
+                style="?attr/materialButtonOutlinedStyle"
+                android:textColor="@color/btn_color_questions"
+                />
+
+            <Button
+                android:id="@+id/btnListFathy9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="التقدير التشخيصي لصعوبات السلوك الانفعالي "
                 android:textSize="20sp"
                 android:layout_marginTop="10dp"
                 style="?attr/materialButtonOutlinedStyle"
