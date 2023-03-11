@@ -98,6 +98,10 @@ class ShowRowOfHistoryFragment : Fragment() {
                              quizResultVM.getResultQuiz(studentId , constant.quizTypeSpeFathyElZayat)
                             setQuizFromDBToRecycle()
                         }
+                        3 -> {
+                             quizResultVM.getResultQuiz(studentId , constant.quizTypeSpeMichaelBest)
+                            setQuizFromDBToRecycle()
+                        }
                     }
                 }
                 override fun onNothingSelected(parent: AdapterView<*>?) {

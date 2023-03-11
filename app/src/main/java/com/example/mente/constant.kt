@@ -12,12 +12,14 @@ class constant {
         const val quizTypeSpeNeural = "الفرز العصبى "
         const val quizTypeSpeIIIIinoi = "الينوي "
         const val quizTypeSpeFathyElZayat = "بطاريات فتحى الزيات "
+        const val quizTypeSpeMichaelBest = "مايكل بست"
 
 
         // go To Page From btn name
         const val btnGoToNeuralQuestions = "NeuralQuestions"
         const val btnGoToElioniQuestions = "ElinoiQuestions"
         const val btnGoToFathyElZayatQuestions = "FathyElZayatQuestions"
+        const val btnGoToMichaelBestQuestions = "MichaelBestQuestions"
 
 
 
@@ -77,11 +79,21 @@ class constant {
             "التقدير التشخيصي لصعوبات السلوك الانفعالي"
         )
 
+        var MichaelBestCategoryList = mutableListOf<String>(
+            "الاستيعاب السمعي والتذكر",
+            "اللغة",
+            "المعرفة العامة",
+            "التناسق الحركي",
+            "السلوك الشخصي والاجتماعي",
+        )
+
+
 
 //        الاجابة الصح في اختبار الينوي
 
         const val givenAnsYes ="Yes"
         const val givenAnsNo ="No"
+
 
 
 

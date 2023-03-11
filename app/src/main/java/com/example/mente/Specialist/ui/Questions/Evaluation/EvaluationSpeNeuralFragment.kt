@@ -102,8 +102,7 @@ class EvaluationSpeNeuralFragment : Fragment() {
             studentViewModel.mSetQuizSuccess.observe(viewLifecycleOwner) {
                 if (it) {
 
-                    binding.btnAddValueToStudent.text = "تم اضافة نتيجة الاختبار"
-                    binding.btnAddValueToStudent.isEnabled = false
+                     binding.btnAddValueToStudent.isEnabled = false
                 }
 
             }

@@ -98,8 +98,7 @@ lateinit var binding :FragmentEvaluatonFathyElZayatBinding
 
             studentViewModel.mSetQuizSuccess.observe(viewLifecycleOwner) {
                 if (it) {
-                    Toast.makeText(context, "تم اضافة نتيجة الاختبار", Toast.LENGTH_SHORT).show()
-                    binding.btnAddValueToStudent.isEnabled = false
+                     binding.btnAddValueToStudent.isEnabled = false
                 }
 
             }

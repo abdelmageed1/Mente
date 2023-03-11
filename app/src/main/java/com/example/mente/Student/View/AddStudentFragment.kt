@@ -15,6 +15,7 @@ import androidx.navigation.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.mente.R
 import com.example.mente.Specialist.HomeSpecialistActivity
+import com.example.mente.Specialist.ui.Questions.Evaluation.EvaluationMichealBest
 import com.example.mente.Specialist.ui.Questions.Evaluation.EvaluationSpeNeuralFragment
 import com.example.mente.Specialist.ui.Questions.Evaluation.EvaluatonFathyElZayatFragment
 import com.example.mente.Specialist.ui.Questions.IlllionsQ.ShowQIlllioniList1Fragment
@@ -79,6 +80,9 @@ class AddStudentFragment : Fragment() {
             }
             in constant.fathyElZayatCategoryList -> {
                 quizCategory = constant.quizTypeSpeFathyElZayat
+            }
+            in constant.MichaelBestCategoryList -> {
+                quizCategory = constant.quizTypeSpeMichaelBest
             }
         }
     }
@@ -195,6 +199,11 @@ class AddStudentFragment : Fragment() {
                 getStudentHasAddedNow()
                 EvaluatonFathyElZayatFragment.currentStudent =
                     currentStudent
+            }
+
+            constant.quizTypeSpeMichaelBest ->{
+                fabView?.findNavController()?.navigate(R.id.action_addStudentFragment_to_QSpeMichaelType)
+                EvaluationMichealBest.currentStudent = currentStudent
             }
 
         }

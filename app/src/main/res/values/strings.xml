@@ -28,12 +28,14 @@
     <string name="sometime_1">Sometime (2)</string>
     <string name="often_3">often (3)</string>
     <string name="always_4">always (4)</string>
+    <string name="michael_text">يهــدف هــذا المقيــاس إلى التمييــز بــين الطلبــة العــادين وذوي صعوبات التعلم، حيث قـام الكثـير مـن البـاحثين في هـذا المجـال باستخدام هذا المقياس للكشف عـن النقـاط الحرجـة في الكشـف عن الفئتنين باستخلاص أهـم الخصـائص.</string>
 
 
     <string-array name="category_name_quiz">
         <item> نتائج الفرز العصبى</item>
         <item> نتائج الينوى</item>
         <item> نتائج بطاريات فتحى الزيات</item>
+        <item> مايكل بست </item>
 
     </string-array>
 

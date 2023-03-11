@@ -9,7 +9,9 @@ import androidx.navigation.fragment.findNavController
 import com.example.mente.Authentication.AuthenticationViewModel.AuthVM
 import com.example.mente.R
 import com.example.mente.Specialist.HomeSpecialistActivity
+import com.example.mente.Specialist.ui.Questions.QSpeMichaelType
 import com.example.mente.Specialist.ui.Questions.QSpeTypeFragment
+import com.example.mente.Student.View.AddStudentFragment
 import com.example.mente.constant
 import com.example.mente.databinding.FragmentHomeSpecialistBinding
 
@@ -54,6 +56,13 @@ class HomeSpecialistFragment : Fragment() {
         binding.btnFathyElZayat.setOnClickListener {
             findNavController().navigate(R.id.action_homeFragment_to_QSpeTypeFragment)
             QSpeTypeFragment.typeBtnQuestions = constant.btnGoToFathyElZayatQuestions
+        }
+
+        binding.btnMichael.setOnClickListener {
+            findNavController().navigate(R.id.action_homeFragment_to_addStudentFragment)
+            QSpeMichaelType.typeBtnQuestions = constant.btnGoToMichaelBestQuestions
+            AddStudentFragment.testName = constant.MichaelBestCategoryList[0]
+
         }
 
 

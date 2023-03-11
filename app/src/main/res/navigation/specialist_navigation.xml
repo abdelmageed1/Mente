@@ -14,6 +14,9 @@
             android:id="@+id/action_homeFragment_to_QSpeTypeFragment"
             app:destination="@id/QSpeTypeFragment"
             app:enterAnim="@anim/animate_farg" />
+        <action
+            android:id="@+id/action_homeFragment_to_addStudentFragment"
+            app:destination="@id/addStudentFragment" />
     </fragment>
 
     <fragment
@@ -103,6 +106,9 @@
         <action
             android:id="@+id/action_addStudentFragment_to_showQTwoAns"
             app:destination="@id/showQTwoAns" />
+        <action
+            android:id="@+id/action_addStudentFragment_to_QSpeMichaelType"
+            app:destination="@id/QSpeMichaelType" />
     </fragment>
     <fragment
         android:id="@+id/evaluatonFathyElZayatFragment3"
@@ -152,4 +158,24 @@
         android:id="@+id/showQIlllioniList2Fragment"
         android:name="com.example.mente.Specialist.ui.Questions.IlllionsQ.ShowQIlllioniList2Fragment"
         android:label="ShowQIlllioniList2Fragment" />
+    <fragment
+        android:id="@+id/QSpeMichaelType"
+        android:name="com.example.mente.Specialist.ui.Questions.QSpeMichaelType"
+        android:label="fragment_q_spe_michael_type"
+        tools:layout="@layout/fragment_q_spe_michael_type" >
+        <action
+            android:id="@+id/action_QSpeMichaelType_to_evaluationMichealBest"
+            app:destination="@id/evaluationMichealBest" />
+    </fragment>
+    <fragment
+        android:id="@+id/evaluationMichealBest"
+        android:name="com.example.mente.Specialist.ui.Questions.Evaluation.EvaluationMichealBest"
+        android:label="fragment_evaluation_micheal_best"
+        tools:layout="@layout/fragment_evaluation_micheal_best" >
+        <action
+            android:id="@+id/action_evaluationMichealBest_to_homeFragment"
+            app:destination="@id/homeFragment"
+            app:popUpTo="@id/homeFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
 </navigation>
